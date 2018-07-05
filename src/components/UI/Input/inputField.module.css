@@ -1,0 +1,17 @@
+.Input {
+    font-size: 14px;
+    border: 0;
+    -ms-flex: 1 0;
+    margin: 3px 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 5px 0;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background-color: #fafafa;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    text-align: center;
+    width: 99%;
+    align-content: center;
+}

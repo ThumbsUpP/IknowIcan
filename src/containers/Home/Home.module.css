@@ -1,0 +1,40 @@
+.Home {
+    text-align: center;
+    color: #fff;
+}
+
+.homeWrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 640px) {
+    .homeWrapper {
+        width: 400px;
+        margin: 0 auto;
+    }
+    .Home {
+        height: 80vh;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.buttonsWrapper {
+    padding: 1rem 0;
+    border-bottom: 2px solid #fff;
+}
+
+.buttonsWrapper button {
+    margin: 1rem 0;
+}
+
+.homeWrapper h3 {
+    margin: 1rem auto;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.homeWrapper p {
+    text-shadow: 1px 1px 1px gray;
+}
