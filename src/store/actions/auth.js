@@ -39,8 +39,7 @@ export const auth = (name, email, password, isSignedUp) => {
             password: password,
             displayName: name,
             returnSecureToken: true
-        }
-        console.log(name, email, password, isSignedUp);
+        };
         
         let url = 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=AIzaSyBQHpIx-EEi1FEZ2WDzaqtNBx-meh5AfVU';
         if (isSignedUp) {
@@ -52,6 +51,7 @@ export const auth = (name, email, password, isSignedUp) => {
                 const expirationDate = new Date(new Date().getTime() + response.data.expiresIn * 1000);
                 localStorage.setItem('expirationDate', expirationDate);
                 localStorage.setItem('userId', response.data.localId);
+                localStorage.setItem('displayName', response.data.displayName);
                 dispatch(authSuccess(response.data.idToken, response.data.localId, response.data.displayName));
                 dispatch(checkAuthTimeout(response.data.expiresIn));
             })
@@ -73,7 +73,8 @@ export const authCheckState = () => {
                 dispatch(logout());
             } else {
                 const userId = localStorage.getItem('userId');
-                dispatch(authSuccess(token, userId));
+                const name = localStorage.getItem('displayName');
+                dispatch(authSuccess(token, userId, name));
                 dispatch(checkAuthTimeout((expirationDate.getTime() - new Date().getTime()) / 1000 ));
             }
         }
@@ -84,6 +85,7 @@ export const logout = () => {
     localStorage.removeItem('token');
     localStorage.removeItem('expirationDate');
     localStorage.removeItem('userId');
+    localStorage.removeItem('displayName')
     return {
         type: actionTypes.AUTH_LOGOUT,
     }

@@ -9,7 +9,7 @@ import InputField from '../../components/UI/Input/inputField';
 class Auth extends Component {
 
     state = {
-        name : 'yolo',
+        name: '',
         email: '',
         password: '',
         isSignedUp: false
@@ -83,7 +83,7 @@ class Auth extends Component {
                 return <form onSubmit={this.onSubmitHandler}>
                     <InputField type="email" placeholder="Email" onChangeHandler={this.onChangeHandler} />
                     <InputField type="password" placeholder="Mot de passe" onChangeHandler={this.onChangeHandler} />
-                    {this.props.error ? <p style={{color: 'Tomato'}} >Identifiants incorrects</p> : <p>6 caractères minimum</p>}
+                    {this.props.error ? <p style={{ color: 'Tomato' }} >Identifiants incorrects</p> : <p style={{ height: '8px' }} ></p>}
                     <button className={styles.Button} >Se connecter</button>
                 </form>
             case 'login':
@@ -92,7 +92,7 @@ class Auth extends Component {
                         <InputField type="text" placeholder="Prénom" onChangeHandler={this.onChangeHandler} />
                         <InputField type="email" placeholder="Email" onChangeHandler={this.onChangeHandler} />
                         <InputField type="password" placeholder="Mot de passe" onChangeHandler={this.onChangeHandler} />
-                        {this.props.error ? <p style={{color: 'Tomato'}} >Identifiants incorrects</p> : <p>6 caractères minimum</p>}
+                        {this.props.error ? <p style={{ color: 'Tomato' }} >Identifiants incorrects</p> : <p>6 caractères minimum</p>}
                         <button className={styles.Button} >Créer un compte</button>
                     </form>)
 
@@ -113,7 +113,7 @@ class Auth extends Component {
     }
 
     render() {
-        
+
         let loginChoice = (<div className={styles.LoginChoice} >
             <div>
                 {this.state.wantSignInform ? this.createAuthform('signin') : this.createAuthButton('signin')}
@@ -135,9 +135,7 @@ class Auth extends Component {
         return (
             <div className={styles.Auth}>
                 <h1 className={styles.Logo}>Futurama</h1>
-
                 <h3 className={styles.H3} >Inscris-toi pour découvrir les métiers que tu pourrais faire demain.</h3>
-
                 {loginChoice}
                 {this.props.token &&
                     <Redirect to='/home' />

@@ -35,7 +35,8 @@ const auth_reducer = (state = initialState, action) => {
             return {
                 ...state,
                 token: null,
-                userId: null
+                userId: null,
+                name: null,
             }
         default:
             return state;

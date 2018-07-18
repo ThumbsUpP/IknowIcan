@@ -1,0 +1,139 @@
+{
+  "metiers" : {
+    "-LGQjvyy2SI5BM3TxBxf" : {
+      "accessLevel" : "CAP ou équivalent\n",
+      "interets" : [ "Je rêve d'un métier artistique", "Je veux travailler de mes mains", "Réparer, bricoler, j'adore ça" ],
+      "job" : "bottier / bottière",
+      "jobMarket" : [ "Un métier rare mais de la demande", "Se faire un nom avant de s'installer", "Vers la podo-orthopédie ?" ],
+      "rome" : "B1802",
+      "salaire" : "1498",
+      "statut" : [ "artisan,", "salarié" ]
+    },
+    "-LGQk-jyjkDToIWQdx1j" : {
+      "accessLevel" : "CAP ou équivalent\n",
+      "interets" : [ "Je rêve d'un métier artistique", "Je veux travailler de mes mains", "Réparer, bricoler, j'adore ça" ],
+      "job" : "bronzier / bronzière",
+      "jobMarket" : [ "Des commandes qui se raréfient", "Un secteur en crise", "Vers plus de polyvalence" ],
+      "rome" : "B1601",
+      "salaire" : "1498",
+      "statut" : [ "artisan,", "salarié" ]
+    },
+    "-LGQk40Hd3MoAt9W9INi" : {
+      "accessLevel" : "bac ou équivalent\n",
+      "interets" : [ "Je rêve d'un métier artistique" ],
+      "job" : "projectionniste",
+      "jobMarket" : [ "Des places à prendre", "Des possibilités d'évolution" ],
+      "rome" : "E1204",
+      "salaire" : "1498",
+      "statut" : [ "salarié" ]
+    },
+    "-LGQk8frWtk_sQFWDMDX" : {
+      "accessLevel" : "CAP ou équivalent\n",
+      "interets" : [ "Je rêve d'un métier artistique", "Je veux travailler de mes mains" ],
+      "job" : "modiste",
+      "jobMarket" : [ "Un marché du sur-mesure restreint", "Besoin de jeunes talents" ],
+      "rome" : "B1801",
+      "salaire" : "1498",
+      "statut" : [ "artisan,", "salarié" ]
+    },
+    "-LGQkNbBSSYa-xi6DfRz" : {
+      "accessLevel" : "bac + 5\n",
+      "interets" : [ "Je rêve d'un métier artistique", "Je veux travailler de mes mains", "Réparer, bricoler, j'adore ça" ],
+      "job" : "restaurateur / restauratrice d'oeuvres d'art",
+      "jobMarket" : [ "Indépendant", "Salarié ou fonctionnaire", "Besoins en peinture et sculpture" ],
+      "rome" : "B1302",
+      "salaire" : "1615",
+      "statut" : [ "artisan,", "fonctionnaire,", "salarié" ]
+    },
+    "-LGQkTx9TB4Zb833FiXP" : {
+      "accessLevel" : "CAP ou équivalent\n",
+      "interets" : [ "Maintenance, entretien" ],
+      "job" : "agent / agente de propreté et d'hygiène",
+      "jobMarket" : [ "Des embauches nombreuses ", "Des promotions accessibles et rapides", "Du nettoyage au multiservice" ],
+      "rome" : "K2204",
+      "salaire" : "1498",
+      "statut" : [ "salarié" ]
+    },
+    "-LGQkYlpvLpXEY9xWwtl" : {
+      "accessLevel" : "bac ou équivalent\n",
+      "interets" : [ "J'aime bouger", "J'aime les sensations fortes", "Je veux être utile aux autres", "Je veux faire respecter la loi" ],
+      "job" : "gardien / gardienne de la paix",
+      "jobMarket" : [ "Le gros bataillon de la police", "Évolution de carrière" ],
+      "rome" : "K1706",
+      "salaire" : "1755",
+      "statut" : [ "fonctionnaire" ]
+    },
+    "-LGQkc2qiLK0LDA0rZoQ" : {
+      "accessLevel" : "CAP ou équivalent\n",
+      "interets" : [ "J'aime bouger", "Je veux travailler de mes mains", "Réparer, bricoler, j'adore ça" ],
+      "job" : "maçon / maçonne",
+      "jobMarket" : [ "Des recrutements à la pelle", "De bonnes évolutions de carrière" ],
+      "rome" : "F1611",
+      "salaire" : "1498",
+      "statut" : [ "artisan,", "salarié" ]
+    },
+    "-LGQklM_nJhAVoZLbe-M" : {
+      "accessLevel" : "bac + 2\n",
+      "interets" : [ "Je rêve d'un métier artistique" ],
+      "job" : "maquettiste",
+      "jobMarket" : [ "Salarié ou indépendant", "Une insertion difficile", "Vers le poste de directeur artistique" ],
+      "rome" : "E1205",
+      "salaire" : "1600",
+      "statut" : [ "Statut" ]
+    },
+    "-LGQkpOOTBA-wADouycl" : {
+      "accessLevel" : "bac + 2\n",
+      "interets" : [ "J'ai la bosse du commerce", "J'ai le sens du contact", "Je suis fort en langues" ],
+      "job" : "chef de produit touristique",
+      "jobMarket" : [ "La concurrence d'Internet", "Pas de vrai profil type", "Des évolutions possibles" ],
+      "rome" : "G1301",
+      "salaire" : "1498",
+      "statut" : [ "salarié" ]
+    },
+    "-LGQku_W68Ar_4l_8EeA" : {
+      "accessLevel" : "CAP ou équivalent\n",
+      "interets" : [ "J'aime bouger" ],
+      "job" : "magasinier / magasinière cariste",
+      "jobMarket" : [ "Des effectifs logistiques en creux ", "Surtout des CDD ou des missions d'intérim", "Réelle évolution de carrière " ],
+      "rome" : "N1103",
+      "salaire" : "1498",
+      "statut" : [ "salarié" ]
+    },
+    "-LGQkzc26AThkwX2TdZA" : {
+      "accessLevel" : "bac + 2\n",
+      "interets" : [ "J'aime bouger", "J'aime organiser, gérer", "Je suis fort en langues" ],
+      "job" : "logisticien / logisticienne",
+      "jobMarket" : [ "Dans l'industrie mais pas seulement", "Priorité aux cadres et aux techniciens" ],
+      "rome" : "H1401",
+      "salaire" : "1600",
+      "statut" : [ "salarié" ]
+    },
+    "-LGQl3TZxtym670Wre2n" : {
+      "accessLevel" : "bac + 5\n",
+      "interets" : [ "Je suis fort en langues", "Je veux être aux commandes" ],
+      "job" : "contrôleur aérien / contrôleuse aérienne",
+      "jobMarket" : [ "50 places en 2015", "Élève fonctionnaire", "Évolution possible" ],
+      "rome" : "N2202",
+      "salaire" : "2552",
+      "statut" : [ "fonctionnaire" ]
+    },
+    "-LGQl85oqk8ntaYoYI1h" : {
+      "accessLevel" : "bac ou équivalent\n",
+      "interets" : [ "J'aime bouger", "Je suis fort en langues" ],
+      "job" : "hôtesse de l'air / steward",
+      "jobMarket" : [ "Des perspectives fluctuantes ", "Une carrière qui évolue" ],
+      "rome" : "N2101",
+      "salaire" : "1500",
+      "statut" : [ "salarié" ]
+    },
+    "-LGQlCioKy9QBjzyF94_" : {
+      "accessLevel" : "CAP ou équivalent\n",
+      "interets" : [ "Je suis branché high tech", "Je veux travailler de mes mains", "Réparer, bricoler, j'adore ça" ],
+      "job" : "chaudronnier / chaudronnière",
+      "jobMarket" : [ "Des emplois variés", "Cadre ou technicien" ],
+      "rome" : "H2902",
+      "salaire" : "1498",
+      "statut" : [ "artisan,", "salarié" ]
+    }
+  }
+}

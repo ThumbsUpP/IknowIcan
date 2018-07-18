@@ -1,26 +1,32 @@
 import React, { Component } from 'react';
 import './App.css';
-//import axios from './axios';
-import Auth from './containers/Auth/Auth';
-
-import Home from './containers/Home/Home';
-import Logout from './containers/Logout/Logout';
 import * as actionTypes from "./store/actions/auth";
 import { connect } from 'react-redux';
-
-//import { slide as Menu } from 'react-burger-menu';
-import { Route, Switch, Redirect, Link, withRouter } from "react-router-dom";
-
-
+import { Route, Switch, Redirect, withRouter } from "react-router-dom";
+import Auth from './containers/Auth/Auth';
+import Home from './containers/Home/Home';
+import Logout from './containers/Logout/Logout';
+import Favorite from './containers/Favorite/Favorite'
 
 class App extends Component {
+  state = {
+    state: null
+  }
+
+  componentDidMount() {
+    this.props.onTryAutoSignup() 
+    //console.log(this.props);
+    
+  }
+  
   render() {
 
     let routes = (
       <Switch>
-          <Route exact path="/home" render={() => <Home/>}/>
+          <Route exact path="/home" render={() => <Home history={this.props.history}/>}/>
           <Route exact path="/" render={() => <Auth />} />
           <Route exact path="/logout" component={Logout} />
+          {/* <Route exact path="/:id" component={Favorite} /> */}
           <Redirect to="/" />
       </Switch>)
       
